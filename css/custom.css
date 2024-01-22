@@ -2837,11 +2837,11 @@ section.blog-sec .row {
   }
 
   .inr-banner {
-    padding: 45px 0px !important;
+    /* padding: 45px 0px !important; */
   }
 
   .career-sec {
-    padding-top: 152px !important;
+    padding-top: 194px !important;
     padding-bottom: 52px !important;
   }
 
@@ -2981,5 +2981,15 @@ section.blog-sec .row {
   }
   .growth-blk {
     margin-bottom: 21px;
+}
+.abt-banner h1 {
+  font-size: 24px;
+}
+.career-banner {
+  padding-top: 0!Important;
+}
+
+.career-banner .banner-img {
+  position: unset;
 }
 }
