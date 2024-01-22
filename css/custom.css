@@ -2747,7 +2747,7 @@ section.blog-sec .row {
   }
 
   section.growth-sec {
-    padding: 0;
+    padding: 50px 0px;
   }
 
   .award-info p {
@@ -2979,4 +2979,7 @@ section.blog-sec .row {
   .portfolio-banner .banner-img {
     position: unset;
   }
+  .growth-blk {
+    margin-bottom: 21px;
+}
 }
