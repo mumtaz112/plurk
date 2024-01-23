@@ -2353,6 +2353,12 @@ section.sol-sec {
 .inr-banner {
   z-index: 1;
 }
+.career-banner {
+  z-index: 1;
+}
+.portfolio-banner {
+  z-index: 1;
+}
 }
 @media only screen and (min-width: 520px) and (max-width: 767px) {
 }
