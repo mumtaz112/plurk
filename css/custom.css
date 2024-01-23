@@ -528,8 +528,7 @@ section.sol-sec {
 
 section.finest-sec {
   background: #f3f5f7;
-  padding: 242px 50px;
-  padding-bottom: 2px;
+  padding: 0px 50px;
   z-index: -1;
   margin-top: -183px;
 }
@@ -2529,8 +2528,7 @@ section.sol-sec {
   }
 
   section.finest-sec {
-    padding: 217px 0px;
-    padding-bottom: 02px;
+    padding: 0px 0px;
   }
 
   .tabs-content > div {
