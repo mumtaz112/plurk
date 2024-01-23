@@ -2992,4 +2992,7 @@ section.blog-sec .row {
 .career-banner .banner-img {
   position: unset;
 }
+.abt-banner {
+  z-index: 1;
+}
 }
