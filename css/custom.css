@@ -2358,6 +2358,14 @@ section.sol-sec {
 .portfolio-banner {
   z-index: 1;
 }
+.cntct-sr button {
+    width: 18%;
+    right: 20%;
+}
+
+.cntct-sr form input {
+    width: 60%;
+}
 }
 @media only screen and (min-width: 520px) and (max-width: 767px) {
 }
