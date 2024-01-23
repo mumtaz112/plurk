@@ -1947,7 +1947,9 @@ section.blog-sec .row {
   .icons {
     display: flex;
   }
-
+  section.spend-sec {
+    margin-top: -50px;
+}
   .banner-info h1 {
     font-size: 42px;
     line-height: 48px;
@@ -2125,6 +2127,7 @@ section.blog-sec .row {
 
   section.proud-sec {
     padding-bottom: 42px !important;
+    margin-bottom: 179px;
   }
 
   .creative h4 {
