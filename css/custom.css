@@ -2347,6 +2347,9 @@ section.blog-sec .row {
   .abt-banner h1 {
     font-size: 28px;
 }
+section.sol-sec {
+  z-index: 1;
+}
 }
 @media only screen and (min-width: 520px) and (max-width: 767px) {
 }
