@@ -14,67 +14,79 @@
     <link rel="stylesheet" type="text/css" href="https://dequeuniversity.com/assets/js/patterns/deque-patterns.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Home</title>
   </head>
   <body>
     <!-- Header Start -->
+ 
     <header>
-      <!-- Begin: Top Row -->
+
+    	<!-- Begin: Top Row -->
       <div class="top-row">
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
-              <div class="logo">
-                <a href="./index.html"><img src="./images//logo.png"></a>
-              </div>
-            </div>
-            <div class="col-md-9">
-              <div class="main-nav">
-                <nav class="navbar navbar-expand-md navbar-light">
-                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                      <a href="./index.html" class="nav-item nav-link active">Home</a>
-                      <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
-                      <a href="./service.html" class="nav-item nav-link">Service</a>
-                      <a href="./AboutUs.html" class="nav-item nav-link">AboutUs</a>
-                      <a href="./career.html" class="nav-item nav-link">Career</a>
-                    </div>
-                  </div>
-                </nav>
-                <div class="icons">
-                  <a href="#">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-bandcamp" aria-hidden="true"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-moon-o" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col-md-3"></div> -->
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
           </div>
         </div>
       </div>
       <!-- END: Top Row -->
+
       <!-- Begin: Bottom Row -->
       <div class="bottom-row">
-        <div class="container"></div>
-      </div>
-      <!-- END: Bottom Row -->
+        <div class="container">
+       <nav class="navbar navbar-expand-md navbar-light">
+		    <a href="./index.html" class="navbar-brand"><img src="./images/logo.png"></a>
+		    <button type="button" class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" data-toggle="collapse" data-target="#navbarCollapse">
+		        <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+		    </button>
+
+		    <!-- <div class="nav-main"> -->
+		    <div class="collapse navbar-collapse" id="navbarCollapse">
+		        <div class="navbar-nav">
+              <a href="./index.html" class="nav-item nav-link active">Home</a>
+              <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
+              <a href="./service.html" class="nav-item nav-link">Service</a>
+              <a href="./AboutUs.html" class="nav-item nav-link">AboutUs</a>
+              <a href="./career.html" class="nav-item nav-link">Career</a>
+                <!-- <div class="dropdown show"> -->
+
+  <div class="icons">
+    <a href="#">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </a>
+    <a href="#">
+      <i class="fa fa-bandcamp" aria-hidden="true"></i>
+    </a>
+    <a href="#">
+      <i class="fa fa-moon-o" aria-hidden="true"></i>
+    </a>
+  </div>
+  
+</div>
+                 
+		        </div>	
+		    
+            </nav> 	
+         
+		    </div>
+			
+
+       </div>
+       
+      <!-- END: Bottom Row --> 	
+
     </header>
-    <!-- Header End -->
-    <section class="banner-sec"  data-aos="fade-up">
+    <section class="banner-sec" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
             <div class="banner-info">
               <h1>Make your <span class="span-1">team</span>
+                <br>
                 <span class="span-2">work</span> together
               </h1>
               <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.</p>
@@ -584,7 +596,7 @@
       </div>
       <!-- </div> -->
     </section>
-    <section class="creative-sec creativhm-sec"  data-aos="fade-up-left">
+    <section class="creative-sec creativhm-sec" data-aos="fade-up-left">
       <div class="container">
         <div class="creative">
           <p>Meet Our Team</p>
@@ -1045,6 +1057,7 @@
     <script src="js/all.js"></script>
     <script src="js/custom.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script>
       AOS.init();
     </script>
