@@ -2188,6 +2188,18 @@ section.blog-sec .row {
   .icons {
     display: flex;
   }
+  .banner-img img {
+    height: 299px;
+    object-fit: cover;
+}
+
+.banner-img {
+    top: 35px;
+}
+
+section.banner-sec.aos-init.aos-animate {
+    padding-bottom: 99px;
+}
   button.navbar-toggler.collapsed.d-flex.d-lg-none.flex-column.justify-content-around {
     display: none!Important;
 }
