@@ -333,7 +333,7 @@ section.banner-sec {
 
 section.banner-sec:before {
   content: "";
-  background: url("../images/main-banner.png");
+  background: url("../images/BG.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
