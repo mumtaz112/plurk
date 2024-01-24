@@ -2661,6 +2661,9 @@ section.banner-sec.aos-init.aos-animate {
     border: 1px solid #6da4f6;
     background: #6da4f6;
     padding: 24px 0px;
+    height: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   .main-nav {
@@ -2672,7 +2675,7 @@ section.banner-sec.aos-init.aos-animate {
   }
 
   .navbar-nav a {
-    line-height: 38px;
+    line-height: 42px;
   }
 
   .top-row .col-md-9 {
