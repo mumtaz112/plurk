@@ -1037,10 +1037,10 @@ section.testi-sec::before {
   background: url("../images/quotation.png");
   background-repeat: no-repeat;
   position: absolute;
-  top: 162px;
+  top: 136px;
   bottom: auto;
   left: auto;
-  right: 22%;
+  right: 24%;
   width: 200px;
   height: 200px;
 }
