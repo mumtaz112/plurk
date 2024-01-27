@@ -107,7 +107,9 @@ header .col-md-9 {
 div#navbarCollapse {
   flex-direction: column;
 }
-
+section.creative-sec {
+  padding: 50px 0px;
+}
 .dropdown.show {
   display: flex;
   align-items: center;
@@ -228,7 +230,9 @@ div#navbarCollapse {
   display: inline;
   position: relative;
 }
-
+section.creative-sec {
+    padding: 50px 0px;
+}
 #menu li:first-child {
   border-left: none;
   border-right: 0;
