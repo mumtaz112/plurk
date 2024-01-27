@@ -569,6 +569,7 @@ section.sol-sec {
   border: 1px solid #08111f;
   background: #08111f;
   padding: 60px 0px;
+  padding-bottom: 190px;
   width: 93%;
   margin: 0px auto;
   border-radius: 24px;
@@ -772,6 +773,8 @@ section.finest-sec {
   padding: 0px 50px;
   z-index: -1;
   margin-top: -183px;
+  padding: 50px 0px;
+  padding-bottom: 20px;
 }
 
 .tab-content img {
