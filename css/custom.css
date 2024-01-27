@@ -107,9 +107,7 @@ header .col-md-9 {
 div#navbarCollapse {
   flex-direction: column;
 }
-section.creative-sec {
-  padding: 50px 0px;
-}
+
 .dropdown.show {
   display: flex;
   align-items: center;
@@ -230,9 +228,7 @@ section.creative-sec {
   display: inline;
   position: relative;
 }
-section.creative-sec {
-    padding: 50px 0px;
-}
+
 #menu li:first-child {
   border-left: none;
   border-right: 0;
@@ -987,7 +983,7 @@ section.testi-sec .row {
   transition: all 0.5s ease;
 }
 section.pricing-sec {
-  padding: 70px 0px;
+  padding-bottom: 70px;
 }
 section.pricing-sec .row .row.rhhh {
   box-shadow: 0px 0px 113px 0px #b476e5;
