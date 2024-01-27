@@ -1316,6 +1316,7 @@ footer {
 }
 .inr-banner {
   padding: 80px 0px !important;
+  z-index: 9999;
 }
 .inr-banner .banner-img {
   top: 24px;
