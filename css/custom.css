@@ -1003,6 +1003,9 @@ section.pricing-sec .row .row.rhhh {
 .career-banner {
   z-index: 9999;
 }
+.portfolio-banner {
+  z-index: 99999;
+}
 .row.rh {
   padding-top: 42px;
 }
