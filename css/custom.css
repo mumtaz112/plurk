@@ -1006,6 +1006,9 @@ section.pricing-sec .row .row.rhhh {
 .portfolio-banner {
   z-index: 99999;
 }
+.portfolio-tab {
+  padding-top: 220px;
+}
 .row.rh {
   padding-top: 42px;
 }
