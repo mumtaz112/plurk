@@ -1000,6 +1000,9 @@ section.pricing-sec .row .row.rhhh {
   border: 1px solid #b476e5;
   background: #b476e5;
 }
+.career-banner {
+  z-index: 9999;
+}
 .row.rh {
   padding-top: 42px;
 }
