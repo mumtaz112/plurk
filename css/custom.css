@@ -421,7 +421,7 @@ section.banner-sec .row {
 .banner-info h1 {
   color: #fff;
   line-height: 66px;
-  font-size: 61px;
+  font-size: 47px;
 }
 
 .span-2 {
@@ -437,6 +437,7 @@ section.banner-sec .row {
   width: 68%;
   line-height: 22px;
   padding: 14px 0px;
+  margin-bottom: 0;
 }
 
 .banner-info a {
